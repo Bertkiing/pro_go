@@ -1,0 +1,49 @@
+###  Go常量
+
+常量使用关键字**const**;
+常量的类型只能是：基本类型(int ,float ,bool,string)
+常量的定义格式：const identifier [type] = value  (PS: [type] 可以省略)
+
+Go支持类型推导，故：
+
+``
+    
+    const PI = 3.1415926  //隐式类型定义
+    
+    const OK bool = true  // 显示类型定义
+``
+
+
+> 常量就是无法在程序运行期间修改的，即常量的值必须在编译时就能够确定的。我们可以
+在其赋值表达式中涉及计算过程，但是必须保证用于计算的值必须在编译期间就能获得。
+
+**因为在编译期间自定义的函数均属于未知，因此无法用于常量赋值，But 内置函数可以使用**
+
+PS：反斜杠\ 在常量表达式中充当"多行连接符"的角色。
+
+
+### 关于iota的用法
+````
+
+const (
+	Sunday = iota
+	Monday
+	Tuesday
+	Wednesday
+	Thursday
+	Friday
+	Saturday
+)
+
+```
+
+自动地,Sunday 的值为 0，依次递增，Saturday 为 6
+
+
+> 在每遇到一个新的常量块或单个常量声明时， iota 都会重置为 0（ 简单地讲，每遇到一次 const 关键字，iota 就重置为 0 ）
+
+
+
+[参考链接](https://github.com/Unknwon/the-way-to-go_ZH_CN/blob/master/eBook/04.3.md)
+
+
