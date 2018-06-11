@@ -17,7 +17,8 @@ func main() {
 	var valBool = false
 	var valString = "bertking"
 
-
+	var age uint
+	fmt.Println(age)
 	fmt.Println(valInt)
 	fmt.Println(valFloat)
 	fmt.Println(valBool)

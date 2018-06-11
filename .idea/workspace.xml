@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a721c35d-7435-48af-a526-7feea03f1c6a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/note/Go变量" beforeDir="false" afterPath="$PROJECT_DIR$/main/note/Go变量" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/note/Go类型相关.md" beforeDir="false" afterPath="$PROJECT_DIR$/main/note/Go类型相关.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/type.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/type.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/var4.go" beforeDir="false" afterPath="$PROJECT_DIR$/main/var4.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +18,8 @@
         <entry file="file://$PROJECT_DIR$/main/note/Go类型相关.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="296">
-                <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+              <first_editor relative-caret-position="386">
+                <caret line="70" column="46" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
               </first_editor>
               <second_editor />
             </state>
@@ -42,23 +38,11 @@
           <provider editor-type-id="Gfm" />
         </entry>
       </file>
-      <file leaf-file-name="Go变量" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/note/Go变量">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="357">
-                <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="type.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/type.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            <state relative-caret-position="198">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -98,8 +82,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="37" />
-    <option name="y" value="238" />
+    <option name="x" value="106" />
+    <option name="y" value="315" />
     <option name="width" value="1440" />
     <option name="height" value="812" />
   </component>
@@ -146,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build var4.go">
+  <component name="RunManager" selected="Go Build.go build type.go">
     <configuration name="go build constValue.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="pro_go" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -187,24 +171,24 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build var4.go" />
         <item itemvalue="Go Build.go build type.go" />
+        <item itemvalue="Go Build.go build var4.go" />
         <item itemvalue="Go Build.go build hello.go" />
         <item itemvalue="Go Build.go build constValue.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="70" y="305" width="1440" height="812" extended-state="0" />
+    <frame x="106" y="315" width="1440" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="GfmBrowser" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32791328" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32791328" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -274,15 +258,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/note/Go程序结构介绍.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="Gfm" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/var4.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
@@ -300,18 +275,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main/note/Go程序结构介绍.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="Gfm" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/main/type.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        <state relative-caret-position="198">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/note/Go类型相关.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="296">
-            <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+          <first_editor relative-caret-position="386">
+            <caret line="70" column="46" selection-start-line="70" selection-start-column="46" selection-end-line="70" selection-end-column="46" />
           </first_editor>
           <second_editor />
         </state>
