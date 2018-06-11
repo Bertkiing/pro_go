@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a721c35d-7435-48af-a526-7feea03f1c6a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/main/note/Go类型相关.md" beforeDir="false" afterPath="$PROJECT_DIR$/main/note/Go类型相关.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/note/Go的运算符" beforeDir="false" afterPath="$PROJECT_DIR$/main/note/Go的运算符" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,12 +13,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Go类型相关.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Go类型相关.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/note/Go类型相关.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="341">
-                <caret line="84" column="43" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
+              <first_editor relative-caret-position="337">
+                <caret line="84" column="20" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
               </first_editor>
               <second_editor />
             </state>
@@ -26,15 +26,16 @@
           <provider editor-type-id="Gfm" />
         </entry>
       </file>
-      <file leaf-file-name="Go程序结构介绍.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/note/Go程序结构介绍.md">
+      <file leaf-file-name="Go的运算符" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/note/Go的运算符">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor />
+              <first_editor relative-caret-position="345">
+                <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
-          <provider editor-type-id="Gfm" />
         </entry>
       </file>
       <file leaf-file-name="type.go" pinned="false" current-in-tab="false">
@@ -57,6 +58,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="MarkDown" />
+      </list>
+    </option>
+  </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.10.2/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,6 +76,7 @@
         <option value="$PROJECT_DIR$/main/note/Go变量" />
         <option value="$PROJECT_DIR$/main/type.go" />
         <option value="$PROJECT_DIR$/main/note/Go类型相关.md" />
+        <option value="$PROJECT_DIR$/main/note/Go的运算符" />
       </list>
     </option>
   </component>
@@ -184,7 +193,7 @@
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="103" y="394" width="1440" height="812" extended-state="0" />
+    <frame x="103" y="336" width="1440" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="GfmBrowser" order="3" />
@@ -280,15 +289,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/note/Go程序结构介绍.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="Gfm" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/type.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -299,13 +299,32 @@
     <entry file="file://$PROJECT_DIR$/main/note/Go类型相关.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="341">
-            <caret line="84" column="43" selection-start-line="84" selection-start-column="43" selection-end-line="84" selection-end-column="43" />
+          <first_editor relative-caret-position="337">
+            <caret line="84" column="20" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
       <provider editor-type-id="Gfm" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/note/Go程序结构介绍.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="Gfm" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/note/Go的运算符">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="345">
+            <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
