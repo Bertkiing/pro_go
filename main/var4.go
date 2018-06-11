@@ -15,9 +15,9 @@ var (
 	address = "LY"
 )
 
+
 func main() {
 	testVarInit()
-
 	fmt.Printf("Name is %s\n", name)
 	fmt.Printf("Age is %d\n", age)
 	fmt.Printf("Address is %s\n", address)

@@ -17,10 +17,13 @@ func main() {
 	var valBool = false
 	var valString = "bertking"
 
+
 	fmt.Println(valInt)
 	fmt.Println(valFloat)
 	fmt.Println(valBool)
 	fmt.Println(valString)
+	fmt.Println(5 == 6 )
+
 
 	fmt.Println(isSame(1, 2))
 
