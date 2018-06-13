@@ -38,12 +38,32 @@ func main() {
 	spaces := "  abc  "
 	fmt.Println(len(spaces))
 	fmt.Println(len(strings.TrimSpace(spaces)))
-
+	/**
+		修剪字符串
+	 */
 	learn := "poor english poor"
 	fmt.Println(learn)
 	fmt.Println(strings.TrimLeft(learn,"poor"))
 	fmt.Println(strings.TrimRight(learn,"poor"))
 	fmt.Println(strings.Trim(learn,"poor"))
+	/**
+		strings.Fields(s) 将会利用 1 个或多个空白符号来作为动态长度的分隔符将字符串分割成若干小块
+	 */
+	sentence := "we should good good study day day up"
+	fields := strings.Fields(sentence)
+	fmt.Println(fields)
+	/**
+		strings.Split(s, sep) 用于自定义分割符号来对指定字符串进行分割
+	 */
+	str := "hello?world?You?learn?go"
+	splits := strings.Split(str,"?")
+	fmt.Println(splits)
+	/**
+		Join 用于将元素类型为 string 的 slice 使用分割符号来拼接组成一个字符串
+	 */
+	fmt.Println(strings.Join(splits,":"))
+
+
 
 
 }
