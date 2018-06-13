@@ -106,6 +106,46 @@ PS：
 
 * 非解释型字符串使用的是**反引号**
 
+### 字符串操作
+
+对于字符串，每种语言都有一些对于字符串的预定义处理函数。
+
+在Go中，使用**strings包**来完成对字符串的主要操作。
+常用的字符串操作函数：
+1. strings.HasPrefix()
+2. strings.HasSuffix()
+3. 包含关系：
+    * strings.Contains(s,subStr) bool
+4. 字符索引(-1表示没有)：
+    * strings.Index(s,str string) int
+    * strings.LastIndex(s,str string) int
+5. 字符串替换：
+    * strings.Replace(str,old,new,n) string （n = -1表示全部替换）
+6. 统计字符串出现的次数
+    * strings.Count(s,str string) int
+7. 重复字符串：
+    * strings.Repeat(s,count int) string 
+8. 字符串大小写切换：
+    * strings.ToLower(s) string 小写
+    * strings.ToUpper(s) string 大写
+9. 修剪字符串：
+    * strings.TrimSpace(s) string 剔除字符串开头和结尾的空白符号
+    * strings.TrimLeft(s,str string) string 剔除字符串开头的str
+    * strings.TrimRight(s,str string) string 剔除字符串结尾的str
+    * strings.Trim(s,str string) string 剔除开头和结尾的str
+10. 切割字符串
+    * strings.Field(s) string 将会利用 1 个或多个空白符号来作为动态长度的分隔符将字符串分割成若干小块
+    * strings.Split(s,sep string) string 用于自定义分割符号sep来对指定字符串进行分割
+11. 拼接字符串
+    * strings.Join(sl []string, sep string) string Join 用于将元素类型为 string 的 slice 使用分割符号来拼接组成一个字符串
+  
+  [更多关于strings的用法](https://golang.org/pkg/strings/)
+    
+    
+> 与字符串相关的类型转换都是通过**strconv包**实现的。
+
+[更多关于strconv包的用法](https://golang.org/pkg/strconv/)
+
 
 
 
